@@ -1,0 +1,22 @@
+.text{
+    margin-bottom:  10%;
+    animation: slideContent 1.2s;
+}
+
+/* ANIMATION */
+@keyframes slideContent{
+    from{
+        transform: translateX(-60px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+
+.text p h2{
+    width: 80%;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.8;
+}
