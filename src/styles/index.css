@@ -31,15 +31,16 @@
 }
 
 /* RESPONSIVE */
-@media (max-width:700px){
-    .main-container{
+@media (max-width:1200px){
+    main.main-container{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .main-container, Description .text p { 
+    .content { 
         text-align: center;
-        justify-content: center;
-        align-items: center; 
+        margin-bottom: 15%; 
     }
 }
